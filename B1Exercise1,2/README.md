@@ -23,11 +23,6 @@ Exercise 2:
 - `git stash push -m "stah 3" -u`   // to stash the untracked file
 - `git stash list` // shows a list of stashes like:													
 - `git stash drop 'stash@{0}'`	// to delete a specific stash 
-- `git stash clear` // to delete all stashes 
-<<<<<<< HEAD
+- `git stash clear` // to delete all stashes
 - `git stash apply 'stash@{1}'`
-- `git reset --soft HEAD~1`
-=======
-- `git stash apply 'stash@{1}'`
-
->>>>>>> 02d658a95c489e465dfc41ddb5145820b475f462
+- `git reset --soft HEAD~1` 
