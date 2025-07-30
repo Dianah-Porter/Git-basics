@@ -1,7 +1,6 @@
 Git basics:
 
-- Created a new folder and initialized git using `git init` which creates a hidden folder that git stores information needed to track files.
-
+- Created a new folder and initialized git using `git init` 
 - Made changes to the folder and added `index.html` and `README.md` files and added the contents as well.
 - used `git status` to see the files if are tracked or not before commit this is the result:
     On branch master
@@ -28,3 +27,10 @@ Git basics:
 - `git restore README.md` to discard changes in the working directory.
 - `git log ` to see commit history
 - Added a tag `git tag v1.0` and deleted  it using `git tag -d v1.0`
+- `git branch -m main ` to rename from master to main
+- `git remote add origin main https://github.com/Dianah-Porter/n.git` 
+- `git push -u origin main` to push to main branch.
+- `git checkout -b dev` to create and switch
+- `git branch dev` && `git checkout dev` to switch to it
+- `git switch -c test`
+- `git branch -d test` to delete branch test.
