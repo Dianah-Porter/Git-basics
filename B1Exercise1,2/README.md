@@ -1,5 +1,5 @@
- #Bundle1 Exercise 1
- 
+ # Bundle1 Exercise 1
+ ```bash
  3 cd Git
    4 git status
    5 git add .
@@ -66,6 +66,7 @@
   66 git status
 
   #Bundle1 Exercise 2
+  
   67 git stash list
   68 git stash pop 'stash@{0}'
   69 git reset
@@ -114,3 +115,4 @@
  112 git status
  113 git branch
  114 git checkout main
+ ```
